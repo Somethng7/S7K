@@ -13,28 +13,10 @@
       <h2 id="text1"></h2>
     </div>
 
-     <button onclick="requestAudioPermission()">Allow Audio</button>
-
-    <audio id="audio" loop>
-      <source src="zara.mp3" type="audio/mp3">
-      You & I.
-    </audio>
-   <!-- <audio autoplay loop>
+    <audio autoplay loop>
   <source src="zara.mp3" type="audio/mp3">
   Meow.
-</audio> -->
-    <script>
-      function requestAudioPermission() {
-        var audio = document.getElementById('audio');
-        if (audio.paused) {
-          audio.play();
-        } else {
-          console.log('Audio is already playing.');
-        }
-      }
-    </script>
-
-
+</audio>
     <script src="S7K.js"></script>
     
   </body>
