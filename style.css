@@ -16,7 +16,9 @@ body {
   z-index: -1;
   animation: Something 55s infinite ease-in-out;
 }
-
+  audio {
+  display: none; /* Hide the audio player */
+}
 @keyframes Something {
   0% {
     background-image: url("https://i.postimg.cc/L5dff6dW/Screenshot-26.png");
@@ -43,6 +45,4 @@ body {
   font-family: cursive;
 }
 /* CSS styling for the audio player */
-audio {
-  display: none; /* Hide the audio player */
-}
+
