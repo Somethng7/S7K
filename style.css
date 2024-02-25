@@ -42,3 +42,7 @@ body {
   color: white;
   font-family: cursive;
 }
+/* CSS styling for the audio player */
+audio {
+  display: none; /* Hide the audio player */
+}
