@@ -16,3 +16,14 @@ function typeWriter() {
     setTimeout(typeWriter, speed);
   }
 }
+
+
+// Create an audio element
+var audio = document.createElement("audio");
+
+// Set attributes for the audio element
+audio.src = "zara_zara.mp3"; // Set the audio file path
+audio.autoplay = true; // Autoplay the audio
+
+// Append the audio element to the document body or any other desired location
+document.body.appendChild(audio);
